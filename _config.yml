@@ -2,12 +2,12 @@
 #      Main Configs       #
 # ----------------------- #
 
-url: http://yoursite.com
-title: My Octopress Blog
-subtitle: A blogging framework for hackers.
-author: Your Name
+url: http://www.minh.io
+title: Code, design, and thoughts
+subtitle: A site about creating software.
+author: Minh Nguyen
 simple_search: http://google.com/search
-description:
+description: This is a site about various topics and projects in software.
 
 # Default date format is "ordinal" (resulting in "July 22nd 2007")
 # You can customize the format as defined in
@@ -19,7 +19,7 @@ date_format: "ordinal"
 subscribe_rss: /atom.xml
 subscribe_email:
 # RSS feeds can list your email address if you like
-email:
+email: minhongrails@gmail.com
 
 # ----------------------- #
 #    Jekyll & Plugins     #
@@ -90,8 +90,8 @@ delicious_user:
 delicious_count: 3
 
 # Disqus Comments
-disqus_short_name:
-disqus_show_comment_count: false
+disqus_short_name: minhio
+disqus_show_comment_count: true
 
 # Google Analytics
 google_analytics_tracking_id:

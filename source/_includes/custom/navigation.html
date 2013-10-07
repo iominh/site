@@ -1,4 +1,21 @@
-<ul class="main-navigation">
-  <li><a href="{{ root_url }}/">Blog</a></li>
-  <li><a href="{{ root_url }}/blog/archives">Archives</a></li>
-</ul>
+<div id="main-nav">
+    <nav>
+        <ul>
+        	<li>
+        		{% if site.blog_index_asides.size %}
+					{% include_array blog_index_asides %}
+				{% else %}
+					{% include_array default_asides %}
+				{% endif %}
+        	</li>
+        	<li>
+        		<ul>
+                    <li>Projects - <a href="http://www.minh.io" target="_blank">minh.io</a>
+        			<li>Github - <a href="http://www.github.com/minhongrails" target="_blank">github.com/minhongrails</a></li>
+                    <li>Twitter - <a href="http://www.twitter.com/minhongrails" target="_blank">@minhongrails</a></li>
+                    <li>Email - <a href="mailto:minhongrails@gmail.com" target="_blank">minhongrails at gmail</a></li>
+        		</ul>
+        	</li>
+        </ul>
+    </nav>
+</div>
